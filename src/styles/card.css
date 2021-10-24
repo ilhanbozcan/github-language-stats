@@ -1,0 +1,91 @@
+.card {
+  display: grid;
+  place-content: center;
+  margin-top: 30px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.card__header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  padding: 1em 0 1em 0;
+}
+
+.card__user {
+  flex: 3;
+  text-align: left;
+  margin-left: 1em;
+}
+.card__info {
+  flex: 1;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.card__repo--bold {
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.card__code--bold {
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: x-large;
+}
+.card__userImg {
+  flex: 1;
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+  border: #99a799 1px solid;
+}
+
+.card__name {
+  flex: 1;
+  width: 50%;
+}
+
+.card__nick {
+  flex: 1;
+  width: 50%;
+  color: #0f00ff;
+}
+
+.card__lang {
+  flex: 15%;
+  background: #99a799;
+  height: 15em;
+  margin: 1em 1em 1em 1em;
+  align-items: center;
+  color: white;
+}
+
+.card__langImg {
+  height: 50%;
+  width: 100%;
+  background: seashell;
+}
+
+.card__langPercentage {
+  margin: 1em 1em 1em 1em;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.card__langName {
+  margin: 1em 1em 1em 1em;
+  text-align: center;
+}
+
+.card__body {
+  width: 100%;
+  border-top: 1px solid;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
