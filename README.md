@@ -2,6 +2,8 @@
 
 List percentage of programming languages used by user
 
+Live demo : https://github-language-stats.herokuapp.com/
+
 
 
 ## Instructions
